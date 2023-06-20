@@ -5,7 +5,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'I-jlz/adC1Rj-2'  # Replace this with a real secret key
+SECRET_KEY = ''  # Replace this with a real secret key
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -74,7 +74,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'ijrmarketinganalytics',
         'USER': 'ijrmarketing',
-        'PASSWORD': '&&@V3e8@Aa',
+        'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '3306',
     }
